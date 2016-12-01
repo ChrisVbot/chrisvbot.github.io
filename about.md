@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: splash
 title: About
+author_profile: true
 ---
 
 ### About me 
 
-I'm Chris Veillette <small>(vāy-ette)</small>, a web developer eager to take on new challenges. 
-
-I love writing functional code 
+I'm Chris Veillette <small>(vāy-ette)</small>, a web developer in Vancouver, B.C. I love writing functional code and learning new things. 
 
 
 ### Contact me
