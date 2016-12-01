@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : &fullname "Chris Veillette"
 title_separator          : "-"
-name                     : "Chris Veillette"
+name                     : *fullname
 description              : "An amazing website."
-url                      : "http://www.chrisveillette.me"
+url                      : #"http://chrisveillette.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "chrisvbot/chrisvbot.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,34 +77,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : *fullname
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I'm a web developer in Vancouver, B.C."
+  location         : "Vancouver, BC"
+  email            : "chris.veillette@gmail.com"
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
+  github           : "ChrisVbot"
+  linkedin         : "chris-veillette"
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  twitter          : "ChrisVbot"
 
 
 # Reading Files
